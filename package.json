@@ -1,6 +1,6 @@
 {
     "name": "@flipbyte/formik-json",
-    "version": "1.6.0",
+    "version": "0.3.9",
     "description": "formik-json is a wrapper for Formik to easily create forms using JSON / Javascript Object for defining the elements",
     "main": "lib/index.js",
     "module": "es/index.js",
@@ -16,7 +16,6 @@
     },
     "scripts": {
         "build": "nwb build-react-component --copy-files",
-        "install": "npm run build",
         "clean": "nwb clean-module && nwb clean-demo",
         "prepublishOnly": "npm run build",
         "start": "nwb serve-react-demo",
@@ -41,11 +40,11 @@
         "shallowequal": "^1.1.0"
     },
     "peerDependencies": {
-        "@fortawesome/fontawesome-free": "^5.6.3",
         "lodash": "^4.17.13",
-        "prop-types": "^15.6.2",
         "react": "^16.8.6",
-        "react-dom": "^16.8.6"
+        "react-dom": "^16.8.6",
+        "prop-types": "^15.6.2",
+        "@fortawesome/fontawesome-free": "^5.6.3"
     },
     "devDependencies": {
         "@fortawesome/fontawesome-free": "^5.6.3",
